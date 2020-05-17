@@ -8,6 +8,25 @@ Maintenance branches are merged before each new release. This change log is
 ordered chronologically, so each release contains all changes described below
 it.
 
+# v0.21.5 (unreleased)
+
+This release is fully backward compatible with 0.21.4.
+
+## Enhancements
+
+* [#3286](https://github.com/http4s/http4s/pull/3286): Add `httpRoutes` constructor for `Autoslash middleware`
+* [#3382](https://github.com/http4s/http4s/pull/3382): Use more efficient String compiler in `EntityDecoder[F, String]`
+
+## Documentation
+
+* [#3358](https://github.com/http4s/http4s/pull/3358): Replaced tut with mdoc
+* [#3421](https://github.com/http4s/http4s/pull/3421): New deployment tutorial, including GraalVM
+
+## Dependency updates
+
+* scala-2.13.2
+* tomcat-9.0.35
+
 # v0.21.4 (2020-04-28)
 
 This release is fully backward compatible with 0.21.3.
